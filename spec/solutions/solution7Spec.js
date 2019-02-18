@@ -1,5 +1,5 @@
 describe('Problem 7 - 10001st prime', () => {
-    var Solution = require('../../7/solution')
+    var Solution = require('../../7/solution');
     var solution;
 
     beforeEach(() => {
@@ -18,11 +18,11 @@ describe('Problem 7 - 10001st prime', () => {
 
     it('Should return the 6th prime number', () => {
         let result = solution.solve(6);
-        expect(result).toBe(13)
+        expect(result).toBe(13);
     });
 
     it('Should return the 10001st prime number', () => {
         let result = solution.solve(10001);
-        expect(result).toBe(104743)
+        expect(result).toBe(104743);
     });
 });
