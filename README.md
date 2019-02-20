@@ -1,7 +1,7 @@
 # Project Euler Solutions
 Project Euler problems resolved with Node.js (>= 10.4) and tested with Jasmine
 
-Solved 10 out of 656 problems :see_no_evil:
+Solved 11 out of 656 problems :see_no_evil:
 
 ## Getting started
 ```javascript
