@@ -47,7 +47,7 @@ function Solution() {
 
     Solution.prototype.constructTriplet = (m,n) => constructTriplet(m,n);
 
-    Solution.prototype.solveProblem = () => findTriplet(1000).reduce((acc,val)=>acc*val);
+    Solution.prototype.solveProblem = () => findTriplet(1000).reduce((acc,val)=>acc*val);    
 }
 
 module.exports = Solution;
